@@ -1,0 +1,26 @@
+# dependências
+node_modules/
+
+# build do Next.js
+.next/
+out/
+
+# testes e cobertura
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# variáveis de ambiente (segredos)
+.env
+.env.*
+!.env.example
+
+# sistema e editor
+.DS_Store
+.vscode/
+.idea/
+
+# logs
+npm-debug.log*
